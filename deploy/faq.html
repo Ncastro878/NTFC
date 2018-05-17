@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Font awesome script-->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/ntfc-logo.png">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>North Texas Foot Clinic</title>
+
+    </head>
+    <body>
+      <div class="container">
+        <nav class="nav">
+          <a class="nav__logo-container" href="index.html"><img src="img/ntfc-logo.png" alt="logo" class="logo"></a>
+          <div class="call-banner">
+            <h4 class="call-banner__text">Call for an Appointment</h4>
+            <i class="call-banner__icon fas fa-phone contact-item"></i>
+            <h4 class="call-banner__text"><a class="call-banner__phone" href="tel:1-940-692-7078">940-692-7078</a></h4>
+          </div>
+          <div class="call-banner__facebook">Like us on <a href="https://www.facebook.com/drgrantecettie/"><i class="fab fa-facebook-square"></i></a></div>
+          <div class="nav__floating-appointment-button">
+            <a href="contact.html" class="nav__floating-appointment-button--link">Book Appointment Online</a>
+          </div>
+        </nav> <!-- end of nav, duh -->
+
+        <div class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a href="index.html">Home</a></li>
+            <li class="menu__list-item"><a href="orthotics.html">Orthotics</a></li>
+            <li class="menu__list-item"><a href="diabetic-services.html">Diabetic Services</a></li>
+            <li class="menu__list-item"><a href="conditions.html">Conditions & Treatments</a></li>
+            <li class="menu__list-item"><a href="services.html">Services</a></li>
+            <li class="menu__list-item"><a href="faq.html">FAQ</a></li>
+            <li class="menu__list-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--end of .menu -->
+
+        <div class="floating-action-button">
+
+          <input type="checkbox" class="floating-action-button__checkbox" id="floating-action-button--toggle">
+          <label for="floating-action-button--toggle" class="floating-action-button__button">
+            <span class="floating-action-button__icon">&nbsp;</span>
+          </label>
+
+          <div class="floating-action-button__background">&nbsp;</div>
+
+          <div class="floating-action-button__nav">
+            <ul class="floating-action-button__list">
+              <li class="floating-action-button__list--item"><a href="index.html" class="floating-action-button__link">Home</a></li>
+              <li class="floating-action-button__list--item"><a href="orthotics.html" class="floating-action-button__link">Orthotics</a></li>
+              <li class="floating-action-button__list--item"><a href="diabetic-services.orthotics-details-banner__column--list" class="floating-action-button__link">Diabetic Services</a></li>
+              <li class="floating-action-button__list--item"><a href="conditions.html" class="floating-action-button__link">Conditions & Treatments</a></li>
+              <li class="floating-action-button__list--item"><a href="services.html" class="floating-action-button__link">Services</a></li>
+              <li class="floating-action-button__list--item"><a href="faq.html" class="floating-action-button__link">FAQ</a></li>
+              <li class="floating-action-button__list--item"><a href="contact.html" class="floating-action-button__link">Contact</a></li>
+            </ul>
+          </div>
+        </div><!--end of floating action button -->
+
+        <div class="floating-appointment-button">
+          <a href="contact.html" class="floating-appointment-button__link">Book Appointment Online</a>
+        </div>
+
+        <div class="call-now-button">
+          <a class="call-now-button__link" href="tel:+1-940-692-7078"><div class="call-now-button__text">Call Now!</div></a>
+        </div>
+
+        <div class="faq-container">
+          <h2 class="faq-container__header">Frequently Asked Questions</h2>
+          <ul class="faq-container__list">
+            <li class="faq-container__list-item" onclick="listClick()">
+              What types of Insurance do you accept?
+              <p class="faq-container__list-item--answer">Blue Cross Blue Shield PPO, Blue Cross HMO and HME with a referral, United Healthcare, Cigna, Tricare, Aetna, Medicare,
+              Champ VA, Mutual of Omaha, Celtic, HealthSmart. Patients can call us if they are
+              wondering if Dr. Cettie is In-Network with their insurance company and we can check
+              for them.</p>
+            </li>
+            <li class="faq-container__list-item" onclick="listClick()">
+              Will this go away on its own?
+              <p class="faq-container__list-item--answer">The best bet is to call us if you have questions or concerns about what is going on with your
+foot and we can let you know if we recommend that you come in to be seen by the doctor. If there is a sign of infection we will always recommend that the patient be seen by the doctor so he can get that cleared up</p>
+            </li>
+            <li class="faq-container__list-item" onclick="listClick()">
+              Do I need a referral?
+              <p class="faq-container__list-item--answer">The best way to determine that is to look on their insurance card. If it has a PCP’s (Primary Care
+              Physician) name and info or their card said HMO then they will need a referral. If their
+              insurance required that they select a PCP or had it chosen for them by the insurance
+              company that they have to go to, they will also need a referral to be seen by Dr. Cettie.
+              If they are still unsure, they should call the number on the back of their card and they
+              can get that information from the insurance company.</p>
+            </li>
+            <li class="faq-container__list-item" onclick="listClick()">
+              Where are you located?
+              <p class="faq-container__list-item--answer">The address is 2921 Southwest Pkwy. We are located at the corner of K-Mart Drive and Southwest Pkwy.</p>
+            </li>
+            <li class="faq-container__list-item" onclick="listClick()">
+              Can I be billed for the services?
+              <p class="faq-container__list-item--answer">Dr. Cettie requires payment in full at the time of service. If the patient has insurance
+              then we will collect the copay amount as listed on their insurance card.</p>
+            </li>
+            <li class="faq-container__list-item" onclick="listClick()">
+              I have a question about my bill, who should I talk to?
+              <p class="faq-container__list-item--answer">We personally handle all billing in the office.  Please call us at 940-692-7078 with any questions.</p>
+            </li>
+            <li class="faq-container__list-item" onclick="listClick()">
+              Do I get a discount if I don’t have insurance and am paying in cash?
+              <p class="faq-container__list-item--answer">We personally handle all billing in the office.  Please call us at 940-692-7078 with any questions.</p>
+            </li>
+            <li class="faq-container__list-item" onclick="listClick()">
+              What do I need to bring to my appointment?
+              <p class="faq-container__list-item--answer">If you have never been seen before by Dr. Cettie we ask that you arrive 10-15 minutes before your appointment because we will have paperwork for you to fill out. You will need to bring a picture ID
+              and your insurance card with you so we can scan it into our system. If you are taking
+              any medications or have had previous hospitalizations or operations you will need to
+              bring that information with you as well. If you have it in a typed or written list we can
+              get a copy of it so you do not have to write it all out. Donuts or cookies are also always
+              appreciated! : )</p>
+            </li>
+            <li class="faq-container__list-item" onclick="listClick()">
+              I need my toenails cut and cannot get pedicures or do it myself, does Dr. Cettie do this, and is it covered by my insurance?
+              <p class="faq-container__list-item--answer">The trimming of the nails, corns, or calluses is considered routine foot care. This is not a covered service by many insurances including Medicare. Because of this Dr. Cettie charges a flat rate of $105 that is collected at the time of the visit. As a service to our patients we will bill this to your
+              insurance and see if they will cover this service. If they do cover it in full or partially we
+              reimburse the difference to the patient.</p>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer">
+          <div class="footer__column--1">
+            <a href="#"><img src="img/ntfc-logo.png" alt="logo" class="footer__logo"></a>
+          </div>
+          <div class="footer__column--3">
+            <h3 class="footer__header">Hours of Operation:</h3>
+            <ul class="footer__hours">
+              <li class="footer__hours--item">Sunday: CLOSED</li>
+              <li class="footer__hours--item">Monday: 9am - 5pm</li>
+              <li class="footer__hours--item">Tueday: 9am - 5pm</li>
+              <li class="footer__hours--item">Wednesday: 9am - 5pm</li>
+              <li class="footer__hours--item">Thursday: 9am - 5pm</li>
+              <li class="footer__hours--item">Friday: 9am - 5pm</li>
+              <li class="footer__hours--item">Saturday: CLOSED</li>
+            </ul>
+          </div>
+          <div class="footer__column--2">
+            <h2 class="footer__main-header">North Texas Foot Clinic</h2>
+            <h4 class="footer__phone">Phone Number: (940) 692-7078</h4>
+            <h4 class="footer__address">Address: 2921 Southwest Pkwy, Wichita Falls, TX 76308</h4>
+            <div>
+              <a class="social-media-container__link" href="https://www.google.com/search?q=north+texas+foot+clinic&oq=north+te&aqs=chrome.0.69i59j69i60j0l4.1309j0j7&sourceid=chrome&ie=UTF-8#lrd=0x865321d86d830615:0x127ddc1a4bb31145,3,,,"><i class="social-media-container__fab fab fa-google-plus-square"></i></a>
+              <a class="social-media-container__link" href="https://www.facebook.com/drgrantecettie/"><i class="social-media-container__fab fab fa-facebook"></i></a>
+            </div>
+            <h5 class="footer__designed-by">Site built by <a class="footer__designed-by" href="https://www.ncastro.me"> Nicholas Castro</a></h5>
+          </div>
+
+          <div class="footer__column--4">
+            <ul class="footer__links-list">
+                <li class="footer__link"><a href="index.html" class="footer__link--link">Home</a></li>
+                <li class="footer__link"><a href="orthotics.html" class="footer__link--link"> Orthotics</a></li>
+                <li class="footer__link"><a href="diabetic-services.html" class="footer__link--link">Diabetic Services</a></li>
+                <li class="footer__link"><a href="conditions.html" class="footer__link--link">Conditions & Treatments</a></li>
+                <li class="footer__link"><a href="services.html" class="footer__link--link">Services</a></li>
+                <li class="footer__link"><a href="faq.html" class="footer__link--link">FAQ</a></li>
+                <li class="footer__link"><a href="contact.html" class="footer__link--link">Contact</a></li>
+            </ul>
+          </div>
+        </div><!--end of footer -->
+
+      </div><!--end of .container -->
+  <script>
+  function listClick() {
+	//console.log(event.target.tagName);
+	if (event.target.tagName === "LI") {
+		console.log(event.target);
+		event.target.children[0].style.display = "block";
+	} else if (event.target.tagName === "P") {
+		console.log("p");
+		event.target.style.display = "none";
+	}
+	//event.target.children[0].classList.toggle("hidden");
+}
+</script>
+  </body>
+</html>

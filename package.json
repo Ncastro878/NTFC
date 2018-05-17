@@ -1,0 +1,25 @@
+{
+	"name": "foot_doctor_new",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"watch:sass": "node-sass sass/main.scss css/style.css -w",
+		"devserver": "live-server",
+		"start": "npm-run-all --parallel devserver watch:sass",
+		"compile:sass": "node-sass sass/main.scss css/style.comp.css",
+		"compress:css": "node-sass css/style.concat.css css/style.css --output-style compressed"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"live-server": "^1.2.0",
+		"node-sass": "^4.8.3",
+		"npm-run-all": "^4.1.2"
+	},
+	"dependencies": {
+		"autoprefixer": "^8.5.0",
+		"postcss-cli": "^5.0.0"
+	}
+}

@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Font awesome script-->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/ntfc-logo.png">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>North Texas Foot Clinic</title>
+
+    </head>
+    <div id="fb-root"></div>
+      <!-- Facebook Plugin-->
+      <script>
+      (function(d, s, id) {
+	var js,
+		fjs = d.getElementsByTagName(s)[0];
+	if (d.getElementById(id)) return;
+	js = d.createElement(s);
+	js.id = id;
+	js.src =
+		"https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12&appId=299364027249513&autoLogAppEvents=1";
+	fjs.parentNode.insertBefore(js, fjs);
+})(document, "script", "facebook-jssdk");
+</script>
+    <body>
+      <div class="container">
+
+        <div class="floating-action-button">
+
+          <input type="checkbox" class="floating-action-button__checkbox" id="floating-action-button--toggle">
+          <label for="floating-action-button--toggle" class="floating-action-button__button">
+            <span class="floating-action-button__icon">&nbsp;</span>
+          </label>
+
+          <div class="floating-action-button__background">&nbsp;</div>
+
+          <div class="floating-action-button__nav">
+            <ul class="floating-action-button__list">
+              <li class="floating-action-button__list--item"><a href="index.html" class="floating-action-button__link">Home</a></li>
+              <li class="floating-action-button__list--item"><a href="orthotics.html" class="floating-action-button__link">Orthotics</a></li>
+              <li class="floating-action-button__list--item"><a href="diabetic-services.html" class="floating-action-button__link">Diabetic Services</a></li>
+              <li class="floating-action-button__list--item"><a href="conditions.html" class="floating-action-button__link">Conditions & Treatments</a></li>
+              <li class="floating-action-button__list--item"><a href="services.html" class="floating-action-button__link">Services</a></li>
+              <li class="floating-action-button__list--item"><a href="faq.html" class="floating-action-button__link">FAQ</a></li>
+              <li class="floating-action-button__list--item"><a href="contact.html" class="floating-action-button__link">Contact</a></li>
+            </ul>
+          </div>
+        </div><!--end of floating action button -->
+
+        <div class="floating-appointment-button">
+          <a href="contact.html" class="floating-appointment-button__link">Book Appointment Online</a>
+        </div>
+
+        <div class="call-now-button">
+          <a class="call-now-button__link" href="tel:+1-940-692-7078"><div class="call-now-button__text">Call Now!</div></a>
+        </div>
+
+        <nav class="nav">
+          <a class="nav__logo-container" href="index.html"><img src="img/ntfc-logo.png" alt="logo" class="logo"></a>
+          <div class="call-banner">
+            <h4 class="call-banner__text">Call for an Appointment</h4>
+            <i class="call-banner__icon fas fa-phone contact-item"></i>
+            <h4 class="call-banner__text"><a class="call-banner__phone" href="tel:1-940-692-7078">940-692-7078</a></h4>
+          </div>
+          <div class="call-banner__facebook">Like us on <a href="https://www.facebook.com/drgrantecettie/"><i class="fab fa-facebook-square"></i></a></div>
+          <div class="nav__floating-appointment-button">
+            <a href="contact.html" class="nav__floating-appointment-button--link">Book Appointment Online</a>
+          </div>
+        </nav> <!-- end of nav, duh -->
+
+        <div class="menu">
+          <ul class="menu__list">
+              <li class="menu__list-item"><a href="index.html">Home</a></li>
+              <li class="menu__list-item"><a href="orthotics.html">Orthotics</a></li>
+              <li class="menu__list-item"><a href="diabetic-services.html">Diabetic Services</a></li>
+              <li class="menu__list-item"><a href="conditions.html">Conditions & Treatments</a></li>
+              <li class="menu__list-item"><a href="services.html">Services</a></li>
+              <li class="menu__list-item"><a href="faq.html">FAQ</a></li>
+              <li class="menu__list-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+
+        <div class="banner">
+          <div class="banner__image-overlay">
+            <img class="banner__image" src="img/foot-beach2.jpg" alt="feet on the beach">
+          </div>
+          <ul class="banner__slider-list">
+            <li class="banner__slider-list--item" id="slide-1">
+              <h1 class="banner__header">The Best in North Texas FootCare</h1>
+              <h2 class="banner__sub-header">Specialized Footcare & Surgical Service</h2>
+            </li>
+            <li class="banner__slider-list--item" id="slide-2">
+              <h1 class="banner__header">Practicing for over 20 Years in Wichita Falls</h1>
+            </li>
+            <li class="banner__slider-list--item" id="slide-3">
+              <h1 class="banner__header">All Services are conveniently performed in Wichita Falls</h1>
+              <h2 class="banner__sub-header"></h2>
+            </li>
+          </ul>
+
+        </div><!--end of .banner -->
+
+        <div class="doctor-banner">
+          <div class="doctor_banner__img-wrapper">
+            <img src="img/dr-cettie.png" class="doctor-banner__img"/>
+            <h3 class="doctor-banner__img-wrapper-info">Dr. Grant Cettie</h3>
+          </div>
+
+          <p class="doctor-banner__info">"I am a Board Certified Podiatrist and have been <span class="highlight">practicing for over 20 years in Wichita Falls</span>, Texas. I specialize in helping peoples feet feel better. I treat Ingrown Nails, Heel Pain, Hammertoes, Corns, Plantar Warts, And Many More Foot Related Issues. I take pride in being the best at what I do without compromising. That means I listen carefully to my patients complaints and take the time to fully understand what is needed to diagnose and gently heal their problem. I have the surgical confidence and experience to make sure that the best possible outcomes will occur. I custom make my own orthotics as I have been specially certified and trained in this exclusive field by the Podiatrist for our Olympic athletes. High tech imaging via diagnostic ultrasound is also used to measure the severity of certain foot and ankle conditions. My electronic medical software can be used to share your information quickly and securely with other doctors, labs, and hospitals to ensure that you receive the best treatment possible."
+          </p>
+        </div>
+
+        <div class="podiatry-banner">
+          <div class="podiatry-banner__img-wrapper">
+            <div class="podiatry-banner__img-wrapper--img"></div>
+             <h2 class="podiatry-banner__img-wrapper--header">What is Podiatry?</h2>
+          </div>
+
+          <p class="podiatry-banner__podiatry-info">Podiatric medicine focuses on diagnosing, treating, and preventing Foot And Ankle Problems, Such As Plantar Fasciitis. Your podiatric physician (podiatrist) is highly trained through years of study and clinical practice, including a bachelor’s degree program and four years of podiatric medical school. In addition, podiatrists often have one or more years of residency training to study foot care and surgery in greater depth. Once in practice, podiatrists continue to stay informed about the latest research and developments in the field. In treating your feet, your podiatrist may also work with your other health care providers to give you appropriate and comprehensive care.
+          </p>
+        </div>
+
+        <div class="testimonial-banner">
+          <h3 class="testimonial-banner__header">Patient Testimonials</h3>
+          <div class="testimonial-banner__row">
+            <div class="testimonial-banner__testimonial testimonial-banner__testimonial--first  ">
+              <i class="testimonial-banner__icon fas fa-user-circle"></i>
+              <h2>Brandon B.</h2>
+              <p>"I had to get a procedure done on my toe and I couldn't be happier with the way everything went from front office to the skilled Dr Cettie. Hopefully I won't have anymore problems, but if I did I would surely come back here and recommend anyone of my friends and family"</p>
+              <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-banner__testimonial testimonial-banner__testimonial--second ">
+              <i class="testimonial-banner__icon fas fa-user-circle"></i>
+              <h2>Alex I.</h2>
+              <p>"I played soccer all throughout my life and never had issues with my feet. I recently tried to get back into running again to stay in shape but I could barely make it half a mile before they started to really hurt. Dr. Cettie recommended a different type of shoe and the problem was fixed like magic. Highly recommended, professional and exceptional!"</p>
+              <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+            <div class="testimonial-banner__testimonial testimonial-banner__testimonial--third ">
+              <i class="testimonial-banner__icon fas fa-user-circle"></i>
+              <h2>Evan C.</h2>
+              <p>"Dr.Cettie is the most gentle podiatrist around. Nothing scares me more than the idea of an injection in the foot, but Dr.Cettie has incredible techniques that make everything as comfortable as possible."</p>
+              <div class="stars">
+                <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="social-media-container"><!-- class="fb-container__facebook"-->
+          <div class="social-media-container__column-2">
+            <h2 class="social-media-container__header">Connect with us on Social Media</h2>
+            <div class="social-media-container__facebook">
+              <a class="social-media-container__link" href="https://www.facebook.com/drgrantecettie/"><i class="social-media-container__fab fab fa-facebook"></i> Facebook - Like us on Facebook</a>
+            </div>
+            <div class="social-media-container__google">
+              <a class="social-media-container__link" href="https://www.google.com/search?q=north+texas+foot+clinic&oq=north+te&aqs=chrome.0.69i59j69i60j0l4.1309j0j7&sourceid=chrome&ie=UTF-8#lrd=0x865321d86d830615:0x127ddc1a4bb31145,3,,,"><i class="social-media-container__fab fab fa-google-plus-square"></i> Google Review - Leave us a Review!</a>
+            </div>
+            <div class="social-media-container__yelp">
+              <a class="social-media-container__link" href="https://www.yelp.com/biz/north-texas-foot-clinic-wichita-falls"><i class="social-media-container__fab fab fa-yelp"></i> Yelp - Leave us a Review on Yelp!</a>
+            </div>
+          </div><!--end of .column-2 -->
+
+          <!-- social-media-container__fb-embed -->
+          <div class="social-media-container__column-1" id="social-media-container-1">
+              <div id="facebook" class="social-media-container__fb-embed fb-page" data-href="https://www.facebook.com/drgrantecettie/" data-tabs="timeline" data-width="250" data-height=" 300px" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/drgrantecettie/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/drgrantecettie/">North Texas Foot Clinic</a></blockquote></div>
+          </div>
+
+
+        </div><!--end of social-media-container.-->
+
+        <div>
+        </div>
+
+        <div class="footer">
+          <div class="footer__column--1">
+            <a href="#"><img src="img/ntfc-logo.png" alt="logo" class="footer__logo"></a>
+          </div>
+          <div class="footer__column--3">
+            <h3 class="footer__header">Hours of Operation:</h3>
+            <ul class="footer__hours">
+              <li class="footer__hours--item">Sunday: CLOSED</li>
+              <li class="footer__hours--item">Monday: 9am - 5pm</li>
+              <li class="footer__hours--item">Tueday: 9am - 5pm</li>
+              <li class="footer__hours--item">Wednesday: 9am - 5pm</li>
+              <li class="footer__hours--item">Thursday: 9am - 5pm</li>
+              <li class="footer__hours--item">Friday: 9am - 5pm</li>
+              <li class="footer__hours--item">Saturday: CLOSED</li>
+            </ul>
+          </div>
+          <div class="footer__column--2">
+            <h2 class="footer__main-header">North Texas Foot Clinic</h2>
+            <p class="footer__phone">Phone Number: (940) 692-7078</p>
+            <p class="footer__address">Address: 2921 Southwest Pkwy, Wichita Falls, TX 76308</p>
+            <div>
+              <a class="social-media-container__link" href="https://www.google.com/search?q=north+texas+foot+clinic&oq=north+te&aqs=chrome.0.69i59j69i60j0l4.1309j0j7&sourceid=chrome&ie=UTF-8#lrd=0x865321d86d830615:0x127ddc1a4bb31145,3,,,"><i class="social-media-container__fab fab fa-google-plus-square"></i></a>
+              <a class="social-media-container__link" href="https://www.facebook.com/drgrantecettie/"><i class="social-media-container__fab fab fa-facebook"></i></a>
+            </div>
+            <p class="footer__designed-by"> <a class="footer__designed-by" href="https://www.ncastro.me">Site built by Nicholas Castro</a></p>
+          </div>
+
+          <div class="footer__column--4">
+            <ul class="footer__links-list">
+              <li class="footer__link"><a href="index.html" class="footer__link--link">Home</a></li>
+              <li class="footer__link"><a href="orthotics.html" class="footer__link--link"> Orthotics</a></li>
+              <li class="footer__link"><a href="diabetic-services.html" class="footer__link--link">Diabetic Services</a></li>
+              <li class="footer__link"><a href="conditions.html" class="footer__link--link">Conditions & Treatments</a></li>
+              <li class="footer__link"><a href="services.html" class="footer__link--link">Services</a></li>
+              <li class="footer__link"><a href="faq.html" class="footer__link--link">FAQ</a></li>
+              <li class="footer__link"><a href="contact.html" class="footer__link--link">Contact</a></li>
+            </ul>
+          </div>
+
+        </div><!--end of footer -->
+
+
+      </div><!-- end of .container-->
+
+<script type="text/javascript">
+//this will dynamically set the width of Facebook-plugin upon load, but not
+//on screen resize
+var width = document.getElementById("social-media-container-1").offsetWidth;
+document.getElementById("facebook").setAttribute("width", width);
+
+/*OnScroll animation trigger code*/
+/*
+* Converted from this article:https://www.sitepoint.com/scroll-based-animations-jquery-css3/
+*/
+var windowCache = window;
+var animationElements = document.getElementsByClassName("animation-element");
+/* we'll turn this off now as its slow
+windowCache.addEventListener("scroll", checkIfInView);
+*/
+function checkIfInView() {
+	var window_height =
+		window.innerHeight ||
+		document.documentElement.clientHeight ||
+		document.body.clientHeight;
+	var window_top_position =
+		document.documentElement.scrollTop || document.body.scrollTop;
+	var window_bottom_position = window_top_position + window_height;
+	/*loop thru animation-elements*/
+	[...animationElements].forEach(function(el) {
+		var element_height = el.offsetHeight;
+		var element_top_position = el.offsetTop;
+		var element_buttom_position = element_height + element_top_position;
+
+		if (
+			element_buttom_position >= window_top_position &&
+			element_top_position <= window_bottom_position
+		) {
+			el.classList.add("in-view");
+		} else {
+			el.classList.remove("in-view");
+		}
+	});
+}
+</script>
+
+    </body>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Font awesome script-->
+        <script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="shortcut icon" type="image/png" href="img/ntfc-logo.png">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"/>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <title>North Texas Foot Clinic</title>
+
+    </head>
+    <body>
+      <div class="container">
+
+        <div class="floating-action-button">
+
+          <input type="checkbox" class="floating-action-button__checkbox" id="floating-action-button--toggle">
+          <label for="floating-action-button--toggle" class="floating-action-button__button">
+            <span class="floating-action-button__icon">&nbsp;</span>
+          </label>
+
+          <div class="floating-action-button__background">&nbsp;</div>
+
+          <div class="floating-action-button__nav">
+            <ul class="floating-action-button__list">
+              <li class="floating-action-button__list--item"><a href="index.html" class="floating-action-button__link">Home</a></li>
+              <li class="floating-action-button__list--item"><a href="orthotics.html" class="floating-action-button__link">Orthotics</a></li>
+              <li class="floating-action-button__list--item"><a href="diabetic-services.html" class="floating-action-button__link">Diabetic Services</a></li>
+              <li class="floating-action-button__list--item"><a href="conditions.html" class="floating-action-button__link">Conditions & Treatments</a></li>
+              <li class="floating-action-button__list--item"><a href="services.html" class="floating-action-button__link">Services</a></li>
+              <li class="floating-action-button__list--item"><a href="faq.html" class="floating-action-button__link">FAQ</a></li>
+              <li class="floating-action-button__list--item"><a href="contact.html" class="floating-action-button__link">Contact</a></li>
+            </ul>
+          </div>
+        </div><!--end of floating action button -->
+
+        <div class="call-now-button">
+          <a class="call-now-button__link" href="tel:+1-940-692-7078"><div class="call-now-button__text">Call Now!</div></a>
+        </div>
+
+        <nav class="nav">
+          <a class="nav__logo-container" href="index.html"><img src="img/ntfc-logo.png" alt="logo" class="logo"></a>
+          <div class="call-banner">
+            <h4 class="call-banner__text">Call for an Appointment</h4>
+            <i class="call-banner__icon fas fa-phone contact-item"></i>
+            <h4 class="call-banner__text"><a class="call-banner__phone" href="tel:1-940-692-7078">940-692-7078</a></h4>
+          </div>
+          <div class="call-banner__facebook">Like us on <a href="https://www.facebook.com/drgrantecettie/"><i class="fab fa-facebook-square"></i></a></div>
+        </nav> <!-- end of nav, duh -->
+
+        <div class="menu">
+          <ul class="menu__list">
+            <li class="menu__list-item"><a href="index.html">Home</a></li>
+            <li class="menu__list-item"><a href="orthotics.html">Orthotics</a></li>
+            <li class="menu__list-item"><a href="diabetic-services.html">Diabetic Services</a></li>
+            <li class="menu__list-item"><a href="conditions.html">Conditions & Treatments</a></li>
+            <li class="menu__list-item"><a href="services.html">Services</a></li>
+            <li class="menu__list-item"><a href="faq.html">FAQ</a></li>
+            <li class="menu__list-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div><!--end of .menu -->
+
+        <div class="contact-banner">
+          <div class="contact-banner__header">North Texas Foot Clinic - Dr. Grant Cettie</div><br>
+          <div class="contact-banner__header">Address: 2921 Southwest Pkwy, Wichita Falls, TX 76308</div>
+          <div class="contact-banner__header"><i class="fas fa-phone-square"></i> Phone: (940) 692-7078</div>
+          <div class="contact-banner__header"><i class="fas fa-fax"></i> Fax: (940) 692-7079</div>
+          <iframe class="contact-banner__map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3313.247364008861!2d-98.54165448479009!3d33.8575153806593!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x865321d80392b0b5%3A0x2fed212751857226!2s2921+Southwest+Pkwy%2C+Wichita+Falls%2C+TX+76308!5e0!3m2!1sen!2sus!4v1525458883954" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <h3 class="contact-banner__form-header">Leave us your Contact Information & we will call you with more information:</h3>
+          <div class="contact-banner__form-container">
+            <form action="https://formspree.io/ncastro878@gmail.com"
+      method="POST" class="contact-banner__form">
+              <label for="name">Name (required):</label>
+              <input class="contact-banner__input" type="text" id="name" required="required" size="10" name="name">
+              <label for="phone">Phone Number (required):</label>
+              <input class="contact-banner__input" type="text" id="phone" size="20" maxlength="20" name="phone-number">
+              <label for="comment_box">Comments (optional)</label>
+              <textarea class="contact-banner__input"   id="comment_box" cols="30" rows="10" name="Comments"></textarea>
+              <button class="contact-banner__btn" type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer">
+          <div class="footer__column--1">
+            <a href="#"><img src="img/ntfc-logo.png" alt="logo" class="footer__logo"></a>
+          </div>
+          <div class="footer__column--3">
+            <h3 class="footer__header">Hours of Operation:</h3>
+            <ul class="footer__hours">
+              <li class="footer__hours--item">Sunday: CLOSED</li>
+              <li class="footer__hours--item">Monday: 9am - 5pm</li>
+              <li class="footer__hours--item">Tueday: 9am - 5pm</li>
+              <li class="footer__hours--item">Wednesday: 9am - 5pm</li>
+              <li class="footer__hours--item">Thursday: 9am - 5pm</li>
+              <li class="footer__hours--item">Friday: 9am - 5pm</li>
+              <li class="footer__hours--item">Saturday: CLOSED</li>
+            </ul>
+          </div>
+          <div class="footer__column--2">
+            <h2 class="footer__main-header">North Texas Foot Clinic</h2>
+            <h4 class="footer__phone">Phone Number: (940) 692-7078</h4>
+            <h4 class="footer__address">Address: 2921 Southwest Pkwy, Wichita Falls, TX 76308</h4>
+            <div>
+              <a class="social-media-container__link" href="https://www.google.com/search?q=north+texas+foot+clinic&oq=north+te&aqs=chrome.0.69i59j69i60j0l4.1309j0j7&sourceid=chrome&ie=UTF-8#lrd=0x865321d86d830615:0x127ddc1a4bb31145,3,,,"><i class="social-media-container__fab fab fa-google-plus-square"></i></a>
+              <a class="social-media-container__link" href="https://www.facebook.com/drgrantecettie/"><i class="social-media-container__fab fab fa-facebook"></i></a>
+            </div>
+            <h5 class="footer__designed-by">Site built by <a class="footer__designed-by" href="https://www.ncastro.me"> Nicholas Castro</a></h5>
+          </div>
+
+          <div class="footer__column--4">
+            <ul class="footer__links-list">
+                <li class="footer__link"><a href="index.html" class="footer__link--link">Home</a></li>
+                <li class="footer__link"><a href="orthotics.html" class="footer__link--link"> Orthotics</a></li>
+                <li class="footer__link"><a href="diabetic-services.html" class="footer__link--link">Diabetic Services</a></li>
+                <li class="footer__link"><a href="conditions.html" class="footer__link--link">Conditions & Treatments</a></li>
+                <li class="footer__link"><a href="services.html" class="footer__link--link">Services</a></li>
+                <li class="footer__link"><a href="faq.html" class="footer__link--link">FAQ</a></li>
+                <li class="footer__link"><a href="contact.html" class="footer__link--link">Contact</a></li>
+            </ul>
+          </div>
+        </div><!--end of footer -->
+
+      </div><!--end of .container -->
+
+  </body>
+</html>
