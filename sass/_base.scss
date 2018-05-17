@@ -4,7 +4,7 @@ $color-grey-2: #c6c4c6;
 $color-greyish-blue: #7c9ccf;
 
 $color-primary: #0e4d6c;
-$color-primary-light:#c6c4c6;
+$color-primary-light:#f05833;
 $color-primary-dark: #2c4653;
 :root {
 	/*
@@ -45,5 +45,5 @@ body {
 	font-weight: 400; //copied from truillo site
 	line-height: 1.6;
 	min-height: 100vh;
-	background-color: var(--color-grey-1);
+	background-color: $color-grey-1;
 }
