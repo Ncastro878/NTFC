@@ -1,6 +1,6 @@
 1. I am gonna take notes here of certain actions and techniques I take
 to make this new version of the page.
-2. I will include my command-line commands.
+2. I will include my command-line commands. Let's "npm init".
 
 /* ran this command to install Sass for node
 3. npm install node-sass --save-dev
@@ -22,7 +22,6 @@ to make this new version of the page.
   "start": "npm-run-all --parallel devserver watch:sass",
 */
 Note: 1st will update sass-files on changes, 2nd will run live-server, 3rd runs them in parallel kinda like concurrently
-
 
 7. I will worry about things like compression and prefixing later.
 

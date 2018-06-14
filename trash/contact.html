@@ -38,6 +38,10 @@
           </div>
         </div><!--end of floating action button -->
 
+        <div class="floating-appointment-button">
+          <a href="contact.html" class="floating-appointment-button__link">Book Appointment Online</a>
+        </div>
+
         <div class="call-now-button">
           <a class="call-now-button__link" href="tel:+1-940-692-7078"><div class="call-now-button__text">Call Now!</div></a>
         </div>
@@ -50,6 +54,9 @@
             <h4 class="call-banner__text"><a class="call-banner__phone" href="tel:1-940-692-7078">940-692-7078</a></h4>
           </div>
           <div class="call-banner__facebook">Like us on <a href="https://www.facebook.com/drgrantecettie/"><i class="fab fa-facebook-square"></i></a></div>
+          <div class="nav__floating-appointment-button">
+            <a href="contact.html" class="nav__floating-appointment-button--link">Book Appointment Online</a>
+          </div>
         </nav> <!-- end of nav, duh -->
 
         <div class="menu">
@@ -63,6 +70,12 @@
             <li class="menu__list-item"><a href="contact.html">Contact</a></li>
           </ul>
         </div><!--end of .menu -->
+
+        <div id="appointment-container" class="appointment-banner">
+          <h2 class="appointment-banner__header">Book an Appointment Online!</h2>
+          <!-- iframe width is 1190px -->
+          <iframe id="patientfusion" title='Book online appointments with Grant Cettie | Patient Fusion' height='400px' frameborder='0' src='https://www.patientfusion.com/external/appointment/90f46618-ecb1-4857-ad91-6229eb41d25e?origin=doctor'></iframe>
+        </div>
 
         <div class="contact-banner">
           <div class="contact-banner__header">North Texas Foot Clinic - Dr. Grant Cettie</div><br>
@@ -126,6 +139,14 @@
         </div><!--end of footer -->
 
       </div><!--end of .container -->
+      <script type="text/javascript">
+      getPatientFusionWidth();
+        function getPatientFusionWidth(){
+          var containerWidth = document.getElementById('appointment-container').offsetWidth;
+          var patientFusionWidth = containerWidth * .95;
+          document.getElementById('patientfusion').setAttribute("width",patientFusionWidth +"px");;
 
+        }
+      </script>
   </body>
 </html>
